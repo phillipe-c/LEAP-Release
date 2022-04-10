@@ -1,0 +1,527 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- WIKIPEDIA SEARCH -->
+
+    <category>
+        <pattern>QUEM É VOCÊ</pattern>
+        <template>
+             Eu sou a Lisa, sua assistente virtual 
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É QUE É VOCÊ</pattern>
+        <template>
+             Me chamo Lisa, e estou aqui para o que precisar
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py o que é <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py quem é <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM FOI *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py quem foi <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE FICA *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py onde fica <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE É QUE FICA *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py onde é que fica<star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py qual <star/></system>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>O QUE SÃO *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py o que são <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+        <category>
+        <pattern>O QUE É EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM FOI EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE FICA EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE É FICA EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR QUE EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR QUE EXATAMENTE QUE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE SÃO EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É EXATAMENTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROCURE NA INTERNET EXATAMENTE POR *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR QUE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py por que <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR QUE QUE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py por que que <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE SÃO *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py o que são <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py o que é <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROCURE * NA INTERNET</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROCURE NA WIKIPEDIA *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PROCURE POR * WIKIPEDIA</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUANTOS * TEM</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py quantos <star/> tem</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUANTOS *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py quantos <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WIKIPEDIA *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WIKIPEDIA VOZ *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py o que é <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WIKIPEDIA RESULTADOS *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESULTADOS DA WIKIPEDIA POR *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESULTADOS DA WIKIPEDIA DE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESQUISA REDUNDANTE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESQUISA ESPECÍFICA *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 spe_search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESQUISA REDUNDANTE POR *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESULTADOS *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESULTADOS PARA *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WIKI VOICE *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WIKI RESULTS *</pattern>
+        <template>
+             <random>
+               <li>É pra já! </li>
+               <li>Agora mesmo! </li>
+               <li>Processando! </li>
+            </random>
+            <system>python3 wiki_results.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PESQUISE POR *</pattern>
+        <template>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME FALE SOBRE *</pattern>
+        <template>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FALE SOBRE *</pattern>
+        <template>
+            <system>python3 search.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAIS *</pattern>
+        <template>
+            <system>python3 search.py quais <star/></system>
+        </template>
+    </category>
+</aiml>

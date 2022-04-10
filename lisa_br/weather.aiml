@@ -1,0 +1,332 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- weather.aiml -->
+
+    <category>
+        <pattern>COMO É QUE ESTÁ O TEMPO HOJE</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO HOJE</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO NA *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO NO *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ A TEMPERATURA AGORA</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ A TEMPERATURA *</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE ESTÁ A TEMPERATURA AGORA</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE ESTÁ A TEMPERATURA *</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTARÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO O TEMPO VAI ESTAR *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI ESTAR O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI ESTAR A TEMPERATURA *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É A TEMPERATURA</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É A TEMPERATURA *</pattern>
+        <template>
+            <system>python3 resweather.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE VAI ESTAR O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO QUE O TEMPO VAI ESTAR *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO O TEMPO ESTÁ *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO QUE O TEMPO ESTÁ *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE ESTARÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE VAI ESTAR O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI ESTAR O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É A PREVISÃO PARA *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É A PREVISÃO DO TEMPO PARA *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE TÁ O TEMPO HOJE</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO TÁ O TEMPO HOJE</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO HOJE</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+        <category>
+        <pattern>COMO É QUE ESTÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE TÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO TÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO QUE ESTARÁ O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É O TEMPO</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É A PREVISÃO *</pattern>
+        <template>
+            <system>python3 resweather.py -forecast_weathertemperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEMPO</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO ESTÁ O TEMPO EM *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE ESTÁ O TEMPO EM *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO TÁ O TEMPO EM *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO É QUE TÁ O TEMPO EM *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É O TEMPO EM *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA O TEMPO</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA O TEMPO EM *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA O TEMPO *</pattern>
+        <template>
+            <system>python3 resweather.py temperatura <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUANTOS GRAUS ESTÁ AQUI</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUANTOS GRAUS ESTÁ AGORA</pattern>
+        <template>
+            <system>python3 resweather.py</system>
+        </template>
+    </category>
+</aiml>

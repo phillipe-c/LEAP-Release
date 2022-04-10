@@ -1,0 +1,292 @@
+<aiml veron="1.0.1" encoding="UTF-8">
+<!-- Lisa_main.aiml -->
+
+    <category>
+        <pattern>ME DIGA AS NOTÍCIAS PRINCIPAIS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA AS ÚLTIMAS NOTÍCIAS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA AS NOTÍCIAS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA AS PRINCIPAIS NOTÍCIAS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA ALGUMA NOTÍCIA</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE AS NOTÍCIAS PRINCIPAIS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE AS NOTÍCIAS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE AS NOTÍCIAS PRINCIPAIS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE AS NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAIS SÃO AS ÚLITIMAS NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAIS SÃO AS NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME FALE NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FALE NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIGA NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIGA NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONTE NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONTE NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE NOTÍCIAS *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME * NOTÍCIAS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA AS PRINCIPAIS NOTÍCIAS</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE ALGUMAS NOVIDADES</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE * NOVIDADES</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias...</li>
+               <li>Buscando notícias</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAIS SÃO AS ÚLTIMAS NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME DIGA NOTÍCIAS SOBRE *</pattern>
+        <template>
+             <random>
+               <li>Aqui estão as principais notícias sobre <star/>,.</li>
+               <li>Buscando notícias sobre <star/>,.</li>
+               <li></li>
+            </random>
+            <system>python3 rss_feed.py <star/></system>
+        </template>
+    </category>
+
+</aiml>

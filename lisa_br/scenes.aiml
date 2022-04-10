@@ -1,0 +1,163 @@
+<aiml veron="1.0.1" encoding="UTF-8">
+<!-- scenes.aiml -->
+
+<category>
+        <pattern>BOM DIA</pattern>
+        <template>
+             <random>
+               <li>Bom dia! Acordou bem?</li>
+               <li>Bom dia para você também!</li>
+               <li>Bom dia! Já está na hora de levantar.</li>
+               <li>Bom dia! Como passou a noite?.</li>
+               <li>Bom dia! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py day</system>
+            <random>
+               <li>Espero que tenha um ótimo dia!</li>
+               <li>Lhe desejo um ótimo dia</li>
+               <li>Espero que tudo corra bem</li>
+               <li>Um bom dia para você</li>
+               <li>Até logo, um bom dia para você!</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>BOM DIA*</pattern>
+        <template>
+             <random>
+               <li>Bom dia! Acordou bem?</li>
+               <li>Bom dia para você também!</li>
+               <li>Bom dia! Já está na hora de levantar.</li>
+               <li>Bom dia! Como passou a noite?.</li>
+               <li>Bom dia! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py day</system>
+            <random>
+               <li>Espero que tenha um ótimo dia!</li>
+               <li>Lhe desejo um ótimo dia</li>
+               <li>Espero que tudo corra bem</li>
+               <li>Um bom dia para você</li>
+               <li>Até logo, um bom dia para você!</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>*BOM DIA</pattern>
+        <template>
+             <random>
+               <li>Bom dia! Acordou bem?</li>
+               <li>Bom dia para você também!</li>
+               <li>Bom dia! Já está na hora de levantar.</li>
+               <li>Bom dia! Como passou a noite?.</li>
+               <li>Bom dia! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py day</system>
+            <random>
+               <li>Espero que tenha um ótimo dia!</li>
+               <li>Lhe desejo um ótimo dia</li>
+               <li>Espero que tudo corra bem</li>
+               <li>Um bom dia para você</li>
+               <li>Até logo, um bom dia para você!</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>*BOM DIA*</pattern>
+        <template>
+             <random>
+               <li>Bom dia!</li>
+               <li>Bom dia para você também!</li>
+               <li>Bom dia! Já está na hora de levantar.</li>
+               <li>Bom dia!.</li>
+               <li>Bom dia! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py day</system>
+            <random>
+               <li>Espero que tenha um ótimo dia!</li>
+               <li>Lhe desejo um ótimo dia</li>
+               <li>Espero que tudo corra bem</li>
+               <li>Um bom dia para você</li>
+               <li>Até logo, um bom dia para você!</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>BOA NOITE</pattern>
+        <template>
+             <random>
+               <li>Boa noite! Espero que tudo tenha dado certo para você nesse dia</li>
+               <li>Boa noite!</li>
+               <li>Boa noite! Espero que tudo tenha corrido bem</li>
+               <li>Boa noite! Como passou o dia?.</li>
+               <li>Boa noite! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py night</system>
+            <random>
+               <li>Bons sonhos</li>
+               <li>Bons sonhos, espero que durma bem</li>
+               <li>Até amanhã</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>*BOA NOITE</pattern>
+        <template>
+             <random>
+               <li>Boa noite! Espero que tudo tenha dado certo para você nesse dia</li>
+               <li>Boa noite!</li>
+               <li>Boa noite! Espero que tudo tenha corrido bem</li>
+               <li>Boa noite! Como passou o dia?.</li>
+               <li>Boa noite! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py night</system>
+            <random>
+               <li>Bons sonhos</li>
+               <li>Bons sonhos, espero que durma bem</li>
+               <li>Até amanhã</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>*BOA NOITE*</pattern>
+        <template>
+             <random>
+               <li>Boa noite! Espero que tudo tenha dado certo para você nesse dia</li>
+               <li>Boa noite!</li>
+               <li>Boa noite! Espero que tudo tenha corrido bem</li>
+               <li>Boa noite! Como passou o dia?.</li>
+               <li>Boa noite! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py night</system>
+            <random>
+               <li>Bons sonhos</li>
+               <li>Bons sonhos, espero que durma bem</li>
+               <li>Até amanhã</li>
+            </random>
+        </template>
+</category>
+
+<category>
+        <pattern>BOA NOITE*</pattern>
+        <template>
+             <random>
+               <li>Boa noite! Espero que tudo tenha dado certo para você nesse dia</li>
+               <li>Boa noite!</li>
+               <li>Boa noite! Espero que tudo tenha corrido bem</li>
+               <li>Boa noite! Como passou o dia?.</li>
+               <li>Boa noite! Fico feliz em escutar a sua voz.</li>
+            </random>
+            <system>python3 scenes.py night</system>
+            <random>
+               <li>Bons sonhos</li>
+               <li>Bons sonhos, espero que durma bem</li>
+               <li>Até amanhã</li>
+            </random>
+        </template>
+</category>
+</aiml>

@@ -1,0 +1,95 @@
+<aiml veron="1.0.1" encoding="UTF-8">
+<!-- Lisa_main.aiml -->
+
+    <category>
+        <pattern>TOQUE A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TOQUE *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COLOQUE A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TOCAR A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TOCAR *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COLOCAR A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODERIA TOCAR A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODERIA TOCAR *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODERIA COLOCAR A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODE TOCAR A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODE TOCAR *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODE COLOCAR A MÚSICA *</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COLOQUE A MÚSICA * PARA TOCAR</pattern>
+        <template>
+            <system> python3 lisa_music_streaming.py <star/></system>
+        </template>
+    </category>
+
+</aiml>

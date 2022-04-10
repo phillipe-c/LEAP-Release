@@ -52,8 +52,8 @@ After downloading and installing the software, simply run the main script, `lisa
   **Você:** Lisa bom dia<br />
   **Lisa:** Bom dia! Fico feliz em escutar a sua voz. Hoje é terça-feira, dia 21 de dezembro de 2021, o dia em que comemoramos o Início do Verão. É bom lembrar que já se passaram cerca de 97 por cento do ano. Agora aqui vai a previsão do tempo: A temperatura agora é de 27 graus celcius. E a precipitação hoje é de 50%. É recomendado levar um guarda chuva. Os ventos estão a uma velocidade de 5km/h, e a umidade é de 71%. Aqui vai a notícia mais recente: Mais da metade da população brasileira está vacinada com pelo menos a primeira dose da vacina. Espero que tenha um ótimo dia!<br />
 
-## LIM Language
-You can also contribute to the intelligence of LISA by programming conversations with the easiest language ever. [See LIM-L documentation for more.](https://github.com/phillipe-c/LIM-L)
+## Contributions
+You can also contribute to the intelligence of LISA by programming conversations with the easiest language ever. [See LIM-L documentation for more](https://github.com/phillipe-c/LIM-L). These conversation interfaces can be linked to your own or other programs, written in any language you like.
 
 ## Contact
 Do you want to contribute to the project or have an awesome idea? Or you just want to report an error? Anyway, feel free to send an email to me through this adress:  `icephillipe@hotmail.com`

@@ -1,6 +1,6 @@
 ![alt text](https://github.com/phillipe-c/LEAP-Release/blob/main/Others/LEAP%20Logo.png?raw=true)
 # LEAP 1.5.9-LU3
-The LISA Experimental Accessibility Project Repository<br />
+The LISA Experimental Accessibility Project Repository<br /><br />
 LISA is an Intelligent Assistant, that let's you do things like *advanced* internet searches and much more.
 The assistant was from the very beginning designed to help teachers and students in classrooms to do things like searching the web, getting news or just simply knowing how the weather is. It uses AIML and LIM-L to recognize patterns in speech to then give an answer to each specific question.
 

@@ -21,10 +21,6 @@ After downloading and installing the software, simply run the main script, `lisa
   **Você:** Lisa qual sistema digestório o filo nematoda tem <br />
   **Lisa:** Processando!  Os nematódeos são os primeiros animais a apresentarem sistema digestório completo, ou seja, possuem boca e ânus. A boca possui lábios ao redor. Esses lábios possuem papilas sensoriais, dentes ou placas cortantes seguidas de uma faringe musculosa que efetua sucção do alimento, bombeando para o intestino.<br />
   _______________________________________________________
-  
-  **Você:** Lisa quem foi Steve Jobs<br />
-  **Lisa:** Processando!  Steve Jobs (1955-2011) foi um empresário norte-americano, fundou a Apple. Criou o "Macintosh", o "iPod", o "iPhone" e o "iPad". A Apple revolucionou a indústria de computadores pessoais, os filmes de animação, o mundo da música e dos telefones celulares.<br />
-  ________________________________________________________
 
   **Você:** Lisa qual é a resolução 4k<br />
   **Lisa:** É pra já!  Um televisor 4K possui uma resolução quatro vezes maior que um televisor Full HD, isto é, ele possui uma resolução de 3840 x 2160, ou seja, 2160 linhas contendo 3840 pixels em cada linha totalizando 8.294.400 pixels.<br />

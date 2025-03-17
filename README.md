@@ -1,6 +1,6 @@
 # Notices
 1. Project is **discontinued since 2021**
-2. It looks awful because i did not know how to code back then (still dont know how lol)
+2. It looks awful because i did not know how to code back then (still dont know how lol), but respect bc ai was not a thing damals, so this code is 100% ai-free
 3. This will probably not run on your computer (?)
 4. Most of it is in portuguese
 5. This project was rendered useless after chatGPT was released

@@ -1,3 +1,13 @@
+# Notices
+1. Project is **discontinued since 2021**
+2. It looks awful because i did not know how to code back then (still dont know how lol)
+3. This will probably not run on your computer (?)
+4. Most of it is in portuguese
+5. This project was rendered useless after chatGPT was released
+6. I made it public now because naja... ka warum tbh
+
+#
+
 ![alt text](https://github.com/phillipe-c/LEAP-Release/blob/main/Others/LEAP%20Logo.png?raw=true)
 # LEAP 1.5.9-LU3
 The LISA Experimental Accessibility Project Repository<br /><br />
@@ -53,14 +63,14 @@ After downloading and installing the software, simply run the main script, `lisa
   **Lisa:** Bom dia! Fico feliz em escutar a sua voz. Hoje é terça-feira, dia 21 de dezembro de 2021, o dia em que comemoramos o Início do Verão. É bom lembrar que já se passaram cerca de 97 por cento do ano. Agora aqui vai a previsão do tempo: A temperatura agora é de 27 graus celcius. E a precipitação hoje é de 50%. É recomendado levar um guarda chuva. Os ventos estão a uma velocidade de 5km/h, e a umidade é de 71%. Aqui vai a notícia mais recente: Mais da metade da população brasileira está vacinada com pelo menos a primeira dose da vacina. Espero que tenha um ótimo dia!<br />
 
 ## Contributions
-You can also contribute to the intelligence of LISA by programming conversations with the easiest language ever. [See LIM-L documentation for more](https://github.com/phillipe-c/LIM-L). These conversation interfaces can be linked to your own or other programs, written in any language you like.
+You can also contribute to the intelligence of LISA by programming conversations with the easiest language ever. (~~Why would you want to code on the shitty language i created?~~) [See LIM-L documentation for more](https://github.com/phillipe-c/LIM-L). These conversation interfaces can be linked to your own or other programs, written in any language you like.
 
-## Contact
-Do you want to contribute to the project or have an awesome idea? Or you just want to report an error? Anyway, feel free to send an email to me through this adress:  `icephillipe@hotmail.com`
+## ~~Contact~~
+~~Do you want to contribute to the project or have an awesome idea? Or you just want to report an error? Anyway, feel free to send an email to me through this adress:  `***********@*******.com`~~
 
 ## License
 LEAP License
-Copyright (c) 2022, Phillipe Caetano. All rights reserved.
+Copyright (c) 2021, Phillipe Caetano. All rights reserved.
 Redistribution and use in source and binary forms, with or without modification, 
 are permitted provided that the following conditions are met:
 

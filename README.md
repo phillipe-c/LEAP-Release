@@ -69,6 +69,8 @@ You can also contribute to the intelligence of LISA by programming conversations
 ~~Do you want to contribute to the project or have an awesome idea? Or you just want to report an error? Anyway, feel free to send an email to me through this adress:  `***********@*******.com`~~
 
 ## License
+IMPORTANT: System sounds (the .m4a files ig) are **mine** (no matter what is written in the license, não to com saco de ler ela agr) => you **cannot** use them without my written explicit authorization
+
 LEAP License
 Copyright (c) 2021, Phillipe Caetano. All rights reserved.
 Redistribution and use in source and binary forms, with or without modification, 
